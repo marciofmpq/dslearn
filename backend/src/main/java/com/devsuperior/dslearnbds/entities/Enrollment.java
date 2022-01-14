@@ -22,7 +22,7 @@ public class Enrollment {
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant refundMoment;
 	
-	private boolean avaliable = true;
+	private boolean avaliable;
 	private boolean onlyUpdate;
 	
 	public Enrollment() {
